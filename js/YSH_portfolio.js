@@ -19,14 +19,14 @@ $(document).ready(function () {
     $('.Squre').mouseleave(function(){
         $('.line_f').removeClass('on')
     });
-    $('.Squre').click(function(){
-        location.href='https://bonnie-yang94.github.io/Portfolios/'
+    $('#Jinju').click(function(){
+        window.open('https://bonnie-yang94.github.io/Portfolios/');   
     });
     $('#Konjiam').click(function(){
-        location.href='https://bonnie-yang94.github.io/Portfolis2/index.html'
+        window.open('https://bonnie-yang94.github.io/Portfolis2/index.html');     
     });
     $('.pdf').click(function(){
-        location.href='http://ezportfolio.cafe24.com/ez210215/pdf/ysh_presentation.pdf'
+        window.open('http://ezportfolio.cafe24.com/ez210215/pdf/ysh_presentation.pdf');
     });
 });
 
