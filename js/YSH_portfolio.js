@@ -1,5 +1,6 @@
 $(document).ready(function () {
     $('#fullpage').fullpage({
+        licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE',
         menu:'#fixed',
         sectionsColor: ['#DCD9D3', '#DCD9D3', '#DCD9D3','#DCD9D3', '#645B4A'],
         anchors: ['firstPage', 'secondPage', '3rdPage', '4rdPage','5rdPage'],
