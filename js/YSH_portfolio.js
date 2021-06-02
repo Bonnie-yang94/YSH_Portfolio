@@ -7,8 +7,6 @@ $(document).ready(function () {
         navigation: true,
         navigationPosition: 'right',
         responsiveWidth: 900,
-        afterResponsive: function (isResponsive) {
-        }
     });
     $('#moveTo').on('click',function(){
         $.fn.fullpage.moveTo(1)

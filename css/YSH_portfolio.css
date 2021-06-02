@@ -9,6 +9,14 @@
   font-size: 10px;
   color: #676767;
 }
+.fp-responsive .fp-section,
+.fp-responsive .fp-slide,
+.fp-responsive .fp-tableCell{
+    height: auto !important;
+}
+body{
+  overflow-x: auto
+}
 #section4{
   height: 535px !important;
 }
