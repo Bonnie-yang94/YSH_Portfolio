@@ -29,7 +29,6 @@ body{
     fill: rgba(255, 255, 255, 0.5);
     width: 35vmax;
     z-index: 1;
-    animation: initial;
 }
 .intro .cmt h1 {
     font-weight: bold;
