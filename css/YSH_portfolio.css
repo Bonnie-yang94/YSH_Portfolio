@@ -301,7 +301,6 @@ nav .nav-links .n_right .phone .material-icons-outlined.s_phone{
   margin-bottom: 0;
   margin-right: 35px;
 }
-nav .nav-links.fade-in .n_right .e-mail span:nth-child(2),
 nav .nav-links .n_right .phone span:nth-child(2){
   font-size: 2.5rem;
   color: #fff;
@@ -554,7 +553,7 @@ nav .nav-links .n_right .phone span:nth-child(2){
 }
 .left_con2 .cons .con:nth-child(6){
   line-height: 30px;
-}
+}.r_service::after
 .c_chips{
   display: flex;
   flex-direction: row;
